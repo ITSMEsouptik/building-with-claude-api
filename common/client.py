@@ -88,6 +88,25 @@ def chat(
         )
     return response
 
+def stream_chat(
+    messages: list[dict[str, Any]],
+    *,
+    system: str | None = None,
+    model: str = config.DEFAULT_MODEL,
+    max_tokens: int = config.DEFAULT_MAX_TOKENS,
+    **kwargs: Any,
+):
+    """Open an SDK streaming context. Use as `with stream_chat(...) as stream:`.
+
+    Iterate `stream.text_stream` for text, then call `stream.get_final_message()`
+    to get the full Message (and its usage) once the stream ends.
+    """
+    params: dict[str, Any] = {"model": model, "max_tokens": max_tokens, "messages": messages, **kwargs}
+    if system is not None:
+        params["system"] = system
+    return get_client().messages.stream(**params)
+
+
 
 def text_of(response: anthropic.types.Message) -> str:
     """Concatenate the text blocks of a response."""
