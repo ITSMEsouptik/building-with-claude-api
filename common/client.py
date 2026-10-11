@@ -81,6 +81,11 @@ def chat(
         logger.error("API error %s: %s", e.status_code, e.message)
         raise
     log_usage(response)
+    if response.stop_reason == "max_tokens":
+        logger.warning(
+            "Hit max_tokens=%d; thinking and text share this budget, so output may be truncated or empty",
+            max_tokens,
+        )
     return response
 
 
