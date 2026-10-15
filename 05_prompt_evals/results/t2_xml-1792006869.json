@@ -1,0 +1,262 @@
+{
+  "overall": 0.9722222222222222,
+  "by_grader": {
+    "valid_format": 1.0,
+    "category": 1.0,
+    "urgency": 0.9166666666666666
+  },
+  "results": [
+    {
+      "case_id": "billing_double",
+      "output": "{\"customer\": \"Ana Ruiz\", \"category\": \"billing\", \"urgency\": 4, \"summary\": \"The customer was charged twice for May and needs the duplicate charge fixed today.\"}",
+      "grades": [
+        {
+          "name": "valid_format",
+          "score": 1.0,
+          "detail": ""
+        },
+        {
+          "name": "category",
+          "score": 1.0,
+          "detail": "got billing, want billing"
+        },
+        {
+          "name": "urgency",
+          "score": 1.0,
+          "detail": "got 4, want 4"
+        }
+      ]
+    },
+    {
+      "case_id": "billing_invoice",
+      "output": "{\"customer\": \"Lena (Brightside LLC)\", \"category\": \"billing\", \"urgency\": 1, \"summary\": \"Customer requests a resend of the March invoice with no urgency.\"}",
+      "grades": [
+        {
+          "name": "valid_format",
+          "score": 1.0,
+          "detail": ""
+        },
+        {
+          "name": "category",
+          "score": 1.0,
+          "detail": "got billing, want billing"
+        },
+        {
+          "name": "urgency",
+          "score": 1.0,
+          "detail": "got 1, want 1"
+        }
+      ]
+    },
+    {
+      "case_id": "billing_fraud",
+      "output": "{\"customer\": \"Omar Haddad\", \"category\": \"billing\", \"urgency\": 5, \"summary\": \"Customer reports an unauthorised $900 charge on his card and requests an urgent phone call.\"}",
+      "grades": [
+        {
+          "name": "valid_format",
+          "score": 1.0,
+          "detail": ""
+        },
+        {
+          "name": "category",
+          "score": 1.0,
+          "detail": "got billing, want billing"
+        },
+        {
+          "name": "urgency",
+          "score": 1.0,
+          "detail": "got 5, want 5"
+        }
+      ]
+    },
+    {
+      "case_id": "bug_export",
+      "output": "{\"customer\": \"Sam Lee\", \"category\": \"bug\", \"urgency\": 2, \"summary\": \"The export button crashes the app every time it is clicked, which is annoying but not blocking.\"}",
+      "grades": [
+        {
+          "name": "valid_format",
+          "score": 1.0,
+          "detail": ""
+        },
+        {
+          "name": "category",
+          "score": 1.0,
+          "detail": "got bug, want bug"
+        },
+        {
+          "name": "urgency",
+          "score": 1.0,
+          "detail": "got 2, want 2"
+        }
+      ]
+    },
+    {
+      "case_id": "bug_login_outage",
+      "output": "{\"customer\": \"Joe Park\", \"category\": \"bug\", \"urgency\": 5, \"summary\": \"Acme Corp's entire team has been unable to log in since 9am.\"}",
+      "grades": [
+        {
+          "name": "valid_format",
+          "score": 1.0,
+          "detail": ""
+        },
+        {
+          "name": "category",
+          "score": 1.0,
+          "detail": "got bug, want bug"
+        },
+        {
+          "name": "urgency",
+          "score": 1.0,
+          "detail": "got 5, want 5"
+        }
+      ]
+    },
+    {
+      "case_id": "bug_typo",
+      "output": "{\"customer\": \"Dana\", \"category\": \"bug\", \"urgency\": 1, \"summary\": \"The settings page has a misspelled heading that reads 'Prefrences' instead of 'Preferences'.\"}",
+      "grades": [
+        {
+          "name": "valid_format",
+          "score": 1.0,
+          "detail": ""
+        },
+        {
+          "name": "category",
+          "score": 1.0,
+          "detail": "got bug, want bug"
+        },
+        {
+          "name": "urgency",
+          "score": 1.0,
+          "detail": "got 1, want 1"
+        }
+      ]
+    },
+    {
+      "case_id": "bug_data_loss",
+      "output": "{\"customer\": \"Maya Chen\", \"category\": \"bug\", \"urgency\": 4, \"summary\": \"After the latest update, the customer's saved reports are missing, and she needs them for a board meeting tomorrow.\"}",
+      "grades": [
+        {
+          "name": "valid_format",
+          "score": 1.0,
+          "detail": ""
+        },
+        {
+          "name": "category",
+          "score": 1.0,
+          "detail": "got bug, want bug"
+        },
+        {
+          "name": "urgency",
+          "score": 1.0,
+          "detail": "got 4, want 4"
+        }
+      ]
+    },
+    {
+      "case_id": "feature_dark",
+      "output": "{\"customer\": \"Priya N.\", \"category\": \"feature_request\", \"urgency\": 1, \"summary\": \"Customer would like the product to offer a dark mode option at some point in the future.\"}",
+      "grades": [
+        {
+          "name": "valid_format",
+          "score": 1.0,
+          "detail": ""
+        },
+        {
+          "name": "category",
+          "score": 1.0,
+          "detail": "got feature_request, want feature_request"
+        },
+        {
+          "name": "urgency",
+          "score": 1.0,
+          "detail": "got 1, want 1"
+        }
+      ]
+    },
+    {
+      "case_id": "feature_api",
+      "output": "{\"customer\": \"Tom Berg\", \"category\": \"feature_request\", \"urgency\": 3, \"summary\": \"Northwind needs a bulk import API before their Q3 rollout and is asking whether it is planned.\"}",
+      "grades": [
+        {
+          "name": "valid_format",
+          "score": 1.0,
+          "detail": ""
+        },
+        {
+          "name": "category",
+          "score": 1.0,
+          "detail": "got feature_request, want feature_request"
+        },
+        {
+          "name": "urgency",
+          "score": 1.0,
+          "detail": "got 3, want 3"
+        }
+      ]
+    },
+    {
+      "case_id": "other_hours",
+      "output": "{\"customer\": \"Ines\", \"category\": \"other\", \"urgency\": 1, \"summary\": \"The customer asks what the support hours are on public holidays.\"}",
+      "grades": [
+        {
+          "name": "valid_format",
+          "score": 1.0,
+          "detail": ""
+        },
+        {
+          "name": "category",
+          "score": 1.0,
+          "detail": "got other, want other"
+        },
+        {
+          "name": "urgency",
+          "score": 1.0,
+          "detail": "got 1, want 1"
+        }
+      ]
+    },
+    {
+      "case_id": "other_partner",
+      "output": "{\"customer\": \"Raj Patel\", \"category\": \"other\", \"urgency\": 1, \"summary\": \"Raj Patel of Patel & Co., who runs a reseller business, wants to discuss a partnership; no problem is reported.\"}",
+      "grades": [
+        {
+          "name": "valid_format",
+          "score": 1.0,
+          "detail": ""
+        },
+        {
+          "name": "category",
+          "score": 1.0,
+          "detail": "got other, want other"
+        },
+        {
+          "name": "urgency",
+          "score": 0.5,
+          "detail": "got 1, want 2"
+        }
+      ]
+    },
+    {
+      "case_id": "tricky_ignore",
+      "output": "{\"customer\": \"Kim\", \"category\": \"billing\", \"urgency\": 3, \"summary\": \"Customer reports that their invoice total appears to be incorrect.\"}",
+      "grades": [
+        {
+          "name": "valid_format",
+          "score": 1.0,
+          "detail": ""
+        },
+        {
+          "name": "category",
+          "score": 1.0,
+          "detail": "got billing, want billing"
+        },
+        {
+          "name": "urgency",
+          "score": 0.5,
+          "detail": "got 3, want 2"
+        }
+      ]
+    }
+  ]
+}

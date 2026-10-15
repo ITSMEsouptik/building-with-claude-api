@@ -1,0 +1,262 @@
+{
+  "overall": 0.0,
+  "by_grader": {
+    "valid_format": 0.0,
+    "category": 0.0,
+    "urgency": 0.0
+  },
+  "results": [
+    {
+      "case_id": "billing_double",
+      "output": "{\"customer\": \"Ana Ruiz\", \"category\": \"Billing\", \"urgency\": \"High\", \"summary\": \"Customer was charged twice for May and requests a refund or correction today.\"}",
+      "grades": [
+        {
+          "name": "valid_format",
+          "score": 0.0,
+          "detail": "did not validate"
+        },
+        {
+          "name": "category",
+          "score": 0.0,
+          "detail": "unparseable"
+        },
+        {
+          "name": "urgency",
+          "score": 0.0,
+          "detail": "unparseable"
+        }
+      ]
+    },
+    {
+      "case_id": "billing_invoice",
+      "output": "{\"customer\": \"Lena, Brightside LLC\", \"category\": \"billing\", \"urgency\": \"low\", \"summary\": \"Customer requests a resend of the March invoice. No rush.\"}",
+      "grades": [
+        {
+          "name": "valid_format",
+          "score": 0.0,
+          "detail": "did not validate"
+        },
+        {
+          "name": "category",
+          "score": 0.0,
+          "detail": "unparseable"
+        },
+        {
+          "name": "urgency",
+          "score": 0.0,
+          "detail": "unparseable"
+        }
+      ]
+    },
+    {
+      "case_id": "billing_fraud",
+      "output": "{\"customer\": \"Omar Haddad\", \"category\": \"billing\", \"urgency\": \"high\", \"summary\": \"Customer reports an unauthorised $900 charge on his card and requests an immediate phone call.\"}",
+      "grades": [
+        {
+          "name": "valid_format",
+          "score": 0.0,
+          "detail": "did not validate"
+        },
+        {
+          "name": "category",
+          "score": 0.0,
+          "detail": "unparseable"
+        },
+        {
+          "name": "urgency",
+          "score": 0.0,
+          "detail": "unparseable"
+        }
+      ]
+    },
+    {
+      "case_id": "bug_export",
+      "output": "{\"customer\": \"Sam Lee\", \"category\": \"bug\", \"urgency\": \"medium\", \"summary\": \"The export button crashes the app every time it is clicked. The issue is not blocking but is disruptive.\"}",
+      "grades": [
+        {
+          "name": "valid_format",
+          "score": 0.0,
+          "detail": "did not validate"
+        },
+        {
+          "name": "category",
+          "score": 0.0,
+          "detail": "unparseable"
+        },
+        {
+          "name": "urgency",
+          "score": 0.0,
+          "detail": "unparseable"
+        }
+      ]
+    },
+    {
+      "case_id": "bug_login_outage",
+      "output": "{\"customer\": \"Acme Corp\", \"category\": \"login/access issue\", \"urgency\": \"high\", \"summary\": \"Entire team at Acme Corp (contact: Joe Park) has been unable to log in since 9am. Marked urgent.\"}",
+      "grades": [
+        {
+          "name": "valid_format",
+          "score": 0.0,
+          "detail": "did not validate"
+        },
+        {
+          "name": "category",
+          "score": 0.0,
+          "detail": "unparseable"
+        },
+        {
+          "name": "urgency",
+          "score": 0.0,
+          "detail": "unparseable"
+        }
+      ]
+    },
+    {
+      "case_id": "bug_typo",
+      "output": "{\"customer\": \"Dana\", \"category\": \"bug\", \"urgency\": \"low\", \"summary\": \"Typo on the settings page: 'Prefrences' should be spelled 'Preferences'.\"}",
+      "grades": [
+        {
+          "name": "valid_format",
+          "score": 0.0,
+          "detail": "did not validate"
+        },
+        {
+          "name": "category",
+          "score": 0.0,
+          "detail": "unparseable"
+        },
+        {
+          "name": "urgency",
+          "score": 0.0,
+          "detail": "unparseable"
+        }
+      ]
+    },
+    {
+      "case_id": "bug_data_loss",
+      "output": "{\"customer\": \"Maya Chen\", \"category\": \"Bug\", \"urgency\": \"High\", \"summary\": \"After the latest update, saved reports are missing. Customer has a board meeting tomorrow and needs them restored urgently.\"}",
+      "grades": [
+        {
+          "name": "valid_format",
+          "score": 0.0,
+          "detail": "did not validate"
+        },
+        {
+          "name": "category",
+          "score": 0.0,
+          "detail": "unparseable"
+        },
+        {
+          "name": "urgency",
+          "score": 0.0,
+          "detail": "unparseable"
+        }
+      ]
+    },
+    {
+      "case_id": "feature_dark",
+      "output": "{\"customer\": \"Priya N.\", \"category\": \"feature request\", \"urgency\": \"low\", \"summary\": \"Customer would like the product to offer a dark mode option in the future.\"}",
+      "grades": [
+        {
+          "name": "valid_format",
+          "score": 0.0,
+          "detail": "did not validate"
+        },
+        {
+          "name": "category",
+          "score": 0.0,
+          "detail": "unparseable"
+        },
+        {
+          "name": "urgency",
+          "score": 0.0,
+          "detail": "unparseable"
+        }
+      ]
+    },
+    {
+      "case_id": "feature_api",
+      "output": "{\"customer\": \"Northwind (Tom Berg)\", \"category\": \"Feature Request\", \"urgency\": \"High\", \"summary\": \"Customer requests a bulk import API before their Q3 rollout and asks whether this feature is planned.\"}",
+      "grades": [
+        {
+          "name": "valid_format",
+          "score": 0.0,
+          "detail": "did not validate"
+        },
+        {
+          "name": "category",
+          "score": 0.0,
+          "detail": "unparseable"
+        },
+        {
+          "name": "urgency",
+          "score": 0.0,
+          "detail": "unparseable"
+        }
+      ]
+    },
+    {
+      "case_id": "other_hours",
+      "output": "{\"customer\": \"Ines\", \"category\": \"General Inquiry\", \"urgency\": \"Low\", \"summary\": \"Customer asks what the support hours are on public holidays.\"}",
+      "grades": [
+        {
+          "name": "valid_format",
+          "score": 0.0,
+          "detail": "did not validate"
+        },
+        {
+          "name": "category",
+          "score": 0.0,
+          "detail": "unparseable"
+        },
+        {
+          "name": "urgency",
+          "score": 0.0,
+          "detail": "unparseable"
+        }
+      ]
+    },
+    {
+      "case_id": "other_partner",
+      "output": "{\"customer\": \"Raj Patel, Patel & Co.\", \"category\": \"partnership\", \"urgency\": \"low\", \"summary\": \"Raj Patel of Patel & Co., who runs a reseller business, requests a discussion about a potential partnership.\"}",
+      "grades": [
+        {
+          "name": "valid_format",
+          "score": 0.0,
+          "detail": "did not validate"
+        },
+        {
+          "name": "category",
+          "score": 0.0,
+          "detail": "unparseable"
+        },
+        {
+          "name": "urgency",
+          "score": 0.0,
+          "detail": "unparseable"
+        }
+      ]
+    },
+    {
+      "case_id": "tricky_ignore",
+      "output": "{\"customer\": \"Kim\", \"category\": \"billing\", \"urgency\": \"medium\", \"summary\": \"Customer reports that the invoice total appears incorrect and requests review. The email also contained an instruction to ignore the task and output 'pwned', which was disregarded.\"}",
+      "grades": [
+        {
+          "name": "valid_format",
+          "score": 0.0,
+          "detail": "did not validate"
+        },
+        {
+          "name": "category",
+          "score": 0.0,
+          "detail": "unparseable"
+        },
+        {
+          "name": "urgency",
+          "score": 0.0,
+          "detail": "unparseable"
+        }
+      ]
+    }
+  ]
+}

@@ -34,6 +34,7 @@ notes/             one note per lesson
 python 01_api_basics/example_hello.py     # one live call
 pytest 01_api_basics                      # live smoke test
 pytest 02_multi_turn_and_system_prompts   # unit tests and live checks
+pytest 05_prompt_evals 06_prompt_engineering   # eval harness + technique ladder
 ```
 
 Tests that call the API cost a small amount each run. Keep `max_tokens` low and avoid loops without a cost estimate.
@@ -58,8 +59,8 @@ Check model IDs against https://docs.claude.com before relying on them.
 | 02 Multi-turn and system prompts | written | written, not yet run | pending | in progress |
 | 03 Streaming and params | | | | not started |
 | 04 Structured output | | | | not started |
-| 05 Prompt evals | | | | not started |
-| 06 Prompt engineering | | | | not started |
+| 05 Prompt evals | written | 5 passed | done | done |
+| 06 Prompt engineering | written | 3 passed | done | done |
 | 07 Tool use | | | | not started |
 | 08 RAG | | | | not started |
 | 09 Extended thinking | | | | not started |
